@@ -8,6 +8,8 @@ package «miniF2F-lean4» {
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git"
 
+lean_lib formal
+
 @[default_target]
 lean_lib «MiniF2FLean4» {
   -- add any library configuration options here
