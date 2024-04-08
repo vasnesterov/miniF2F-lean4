@@ -3,6 +3,8 @@ import Mathlib
 open Real Nat Topology
 open scoped BigOperators
 
+set_option maxRecDepth 32768
+
 theorem mathd_algebra_478
   (b h v : ℝ)
   (h₀ : 0 < b ∧ 0 < h ∧ 0 < v)

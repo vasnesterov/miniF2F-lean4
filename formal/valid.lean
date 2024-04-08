@@ -3,6 +3,8 @@ import Mathlib
 open Real Nat Topology
 open BigOperators
 
+set_option maxRecDepth 32768
+
 theorem amc12a_2019_p21
   (z : ℂ)
   (h₀ : z = (1 + Complex.I) / Real.sqrt 2) :
